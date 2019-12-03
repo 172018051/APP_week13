@@ -1,0 +1,711 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>微信公众号平台产品架构</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/微信公众号平台产品架构/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/微信公众号平台产品架构/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u210" class="ax_default _一级标题">
+        <img id="u210_img" class="img " src="images/新媒体研究中心产品架构/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u211" class="text" style="visibility: visible;">
+          <p><span>微信公众号平台CMS后台产品结构图&nbsp; &nbsp; &nbsp; 2019/11/25</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u212" class="ax_default flow_shape">
+        <img id="u212_img" class="img " src="images/新媒体研究中心产品架构/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u213" class="text" style="visibility: visible;">
+          <p><span>微信公众号</span></p><p><span>cms后台</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u214" class="ax_default flow_shape">
+        <img id="u214_img" class="img " src="images/新媒体研究中心产品架构/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u215" class="text" style="visibility: visible;">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u216" class="ax_default flow_shape">
+        <img id="u216_img" class="img " src="images/新媒体研究中心产品架构/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u217" class="text" style="visibility: visible;">
+          <p><span>文章</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u218" class="ax_default flow_shape">
+        <img id="u218_img" class="img " src="images/新媒体研究中心产品架构/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u219" class="text" style="visibility: visible;">
+          <p><span>用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u220" class="ax_default flow_shape">
+        <img id="u220_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u221" class="text" style="visibility: visible;">
+          <p><span>网站概览</span></p><p><span>（统计）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u222" class="ax_default flow_shape">
+        <img id="u222_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u223" class="text" style="visibility: visible;">
+          <p><span>通知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u224" class="ax_default flow_shape">
+        <img id="u224_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u225" class="text" style="visibility: visible;">
+          <p><span>新建</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u226" class="ax_default flow_shape">
+        <img id="u226_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u227" class="text" style="visibility: visible;">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u228" class="ax_default flow_shape">
+        <img id="u228_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u229" class="text" style="visibility: visible;">
+          <p><span>概览</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u230" class="ax_default flow_shape">
+        <img id="u230_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u231" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u232" class="ax_default flow_shape">
+        <img id="u232_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u233" class="text" style="visibility: visible;">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (括弧) -->
+      <div id="u234" class="ax_default flow_shape">
+        <img id="u234_img" class="img " src="images/新媒体研究中心产品架构/u12.png"/>
+        <!-- Unnamed () -->
+        <div id="u235" class="text" style="visibility: visible;">
+          <p><span>概览</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u236" class="ax_default _连接线">
+        <img id="u236_seg0" class="img " src="images/新媒体研究中心产品架构/u144_seg0.png" alt="u236_seg0"/>
+        <img id="u236_seg1" class="img " src="images/新媒体研究中心产品架构/u144_seg1.png" alt="u236_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u237" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u238" class="ax_default _连接线">
+        <img id="u238_seg0" class="img " src="images/新媒体研究中心产品架构/u146_seg0.png" alt="u238_seg0"/>
+        <img id="u238_seg1" class="img " src="images/新媒体研究中心产品架构/u146_seg1.png" alt="u238_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u239" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u240" class="ax_default _连接线">
+        <img id="u240_seg0" class="img " src="images/新媒体研究中心产品架构/u146_seg0.png" alt="u240_seg0"/>
+        <img id="u240_seg1" class="img " src="images/微信公众号平台产品架构/u240_seg1.png" alt="u240_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u241" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u242" class="ax_default _连接线">
+        <img id="u242_seg0" class="img " src="images/新媒体研究中心产品架构/u150_seg0.png" alt="u242_seg0"/>
+        <img id="u242_seg1" class="img " src="images/新媒体研究中心产品架构/u150_seg1.png" alt="u242_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u243" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u244" class="ax_default _连接线">
+        <img id="u244_seg0" class="img " src="images/微信公众号平台产品架构/u244_seg0.png" alt="u244_seg0"/>
+        <img id="u244_seg1" class="img " src="images/微信公众号平台产品架构/u244_seg1.png" alt="u244_seg1"/>
+        <img id="u244_seg2" class="img " src="images/微信公众号平台产品架构/u244_seg2.png" alt="u244_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u245" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u246" class="ax_default _连接线">
+        <img id="u246_seg0" class="img " src="images/新媒体研究中心产品架构/u154_seg0.png" alt="u246_seg0"/>
+        <img id="u246_seg1" class="img " src="images/微信公众号平台产品架构/u246_seg1.png" alt="u246_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u247" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u248" class="ax_default _连接线">
+        <img id="u248_seg0" class="img " src="images/微信公众号平台产品架构/u248_seg0.png" alt="u248_seg0"/>
+        <img id="u248_seg1" class="img " src="images/微信公众号平台产品架构/u248_seg1.png" alt="u248_seg1"/>
+        <img id="u248_seg2" class="img " src="images/微信公众号平台产品架构/u248_seg2.png" alt="u248_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u249" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u250" class="ax_default _连接线">
+        <img id="u250_seg0" class="img " src="images/微信公众号平台产品架构/u250_seg0.png" alt="u250_seg0"/>
+        <img id="u250_seg1" class="img " src="images/新媒体研究中心产品架构/u158_seg1.png" alt="u250_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u251" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u252" class="ax_default _连接线">
+        <img id="u252_seg0" class="img " src="images/新媒体研究中心产品架构/u160_seg0.png" alt="u252_seg0"/>
+        <img id="u252_seg1" class="img " src="images/新媒体研究中心产品架构/u160_seg1.png" alt="u252_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u253" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u254" class="ax_default _连接线">
+        <img id="u254_seg0" class="img " src="images/新媒体研究中心产品架构/u160_seg0.png" alt="u254_seg0"/>
+        <img id="u254_seg1" class="img " src="images/新媒体研究中心产品架构/u162_seg1.png" alt="u254_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u255" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u256" class="ax_default _连接线">
+        <img id="u256_seg0" class="img " src="images/新媒体研究中心产品架构/u156_seg0.png" alt="u256_seg0"/>
+        <img id="u256_seg1" class="img " src="images/新媒体研究中心产品架构/u168_seg1.png" alt="u256_seg1"/>
+        <img id="u256_seg2" class="img " src="images/新媒体研究中心产品架构/u156_seg2.png" alt="u256_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u257" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u258" class="ax_default _连接线">
+        <img id="u258_seg0" class="img " src="images/新媒体研究中心产品架构/u170_seg0.png" alt="u258_seg0"/>
+        <img id="u258_seg1" class="img " src="images/新媒体研究中心产品架构/u170_seg1.png" alt="u258_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u259" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u260" class="ax_default flow_shape">
+        <img id="u260_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u261" class="text" style="visibility: visible;">
+          <p><span>帐号整体情况</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u262" class="ax_default flow_shape">
+        <img id="u262_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u263" class="text" style="visibility: visible;">
+          <p><span>已群发消息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u264" class="ax_default flow_shape">
+        <img id="u264_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u265" class="text" style="visibility: visible;">
+          <p><span>搜索关键词信息</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u266" class="ax_default flow_shape">
+        <img id="u266_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u267" class="text" style="visibility: visible;">
+          <p><span>阅读数、在看数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u268" class="ax_default flow_shape">
+        <img id="u268_img" class="img " src="images/微信公众号平台产品架构/u268.png"/>
+        <!-- Unnamed () -->
+        <div id="u269" class="text" style="visibility: visible;">
+          <p><span>新建群发</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u270" class="ax_default flow_shape">
+        <img id="u270_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u271" class="text" style="visibility: visible;">
+          <p><span>群发对象设置（用户、标签用户、性别）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u272" class="ax_default flow_shape">
+        <img id="u272_img" class="img " src="images/微信公众号平台产品架构/u272.png"/>
+        <!-- Unnamed () -->
+        <div id="u273" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>群发内容选择（图文、文字、图片、音频、视频（可从素材库中选择））</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u274" class="ax_default flow_shape">
+        <img id="u274_img" class="img " src="images/微信公众号平台产品架构/u274.png"/>
+        <!-- Unnamed () -->
+        <div id="u275" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>群发图文消息（自建图文、转载文章、从素材库选择）</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u276" class="ax_default flow_shape">
+        <img id="u276_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u277" class="text" style="visibility: visible;">
+          <p><span>群发地区设置（国家）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u278" class="ax_default flow_shape">
+        <img id="u278_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u279" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>群发时间设置（定时）</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u280" class="ax_default flow_shape">
+        <img id="u280_img" class="img " src="images/微信公众号平台产品架构/u280.png"/>
+        <!-- Unnamed () -->
+        <div id="u281" class="text" style="visibility: visible;">
+          <p><span>内容分析（群发/视频分析，传播渠道、关键指标等数据趋势和渠道构成）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u282" class="ax_default flow_shape">
+        <img id="u282_img" class="img " src="images/微信公众号平台产品架构/u282.png"/>
+        <!-- Unnamed () -->
+        <div id="u283" class="text" style="visibility: visible;">
+          <p><span>修改已群发文章/删除已群发文章（只能删除文章内容，不能删除群发记录）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形组) -->
+      <div id="u284" class="ax_default flow_shape">
+        <img id="u284_img" class="img " src="images/新媒体研究中心产品架构/u24.png"/>
+        <!-- Unnamed () -->
+        <div id="u285" class="text" style="visibility: visible;">
+          <p><span>网站总览页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形组) -->
+      <div id="u286" class="ax_default flow_shape">
+        <img id="u286_img" class="img " src="images/新媒体研究中心产品架构/u24.png"/>
+        <!-- Unnamed () -->
+        <div id="u287" class="text" style="visibility: visible;">
+          <p><span>用户管理页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形组) -->
+      <div id="u288" class="ax_default flow_shape">
+        <img id="u288_img" class="img " src="images/新媒体研究中心产品架构/u24.png"/>
+        <!-- Unnamed () -->
+        <div id="u289" class="text" style="visibility: visible;">
+          <p><span>用户分析页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形组) -->
+      <div id="u290" class="ax_default flow_shape">
+        <img id="u290_img" class="img " src="images/新媒体研究中心产品架构/u24.png"/>
+        <!-- Unnamed () -->
+        <div id="u291" class="text" style="visibility: visible;">
+          <p><span>新建群发页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u292" class="ax_default flow_shape">
+        <img id="u292_img" class="img " src="images/微信公众号平台产品架构/u292.png"/>
+        <!-- Unnamed () -->
+        <div id="u293" class="text" style="visibility: visible;">
+          <p><span>用户增长数据统计，日、周、月数据和表图表（新关注人数、取消关注人数、净增关注人数、累计关注人数、用户来源）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u294" class="ax_default flow_shape">
+        <img id="u294_img" class="img " src="images/微信公众号平台产品架构/u294.png"/>
+        <!-- Unnamed () -->
+        <div id="u295" class="text" style="visibility: visible;">
+          <p><span>用户属性，日、周、月数据和图表（人口特征、地域归属、访问设备）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u296" class="ax_default flow_shape">
+        <img id="u296_img" class="img " src="images/微信公众号平台产品架构/u296.png"/>
+        <!-- Unnamed () -->
+        <div id="u297" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>人口特征统计，数据与图表（性别分布、年龄分布、语言分布）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u298" class="ax_default flow_shape">
+        <img id="u298_img" class="img " src="images/微信公众号平台产品架构/u298.png"/>
+        <!-- Unnamed () -->
+        <div id="u299" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>地域归属，数据与图表（省级分布、地级分布）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u300" class="ax_default flow_shape">
+        <img id="u300_img" class="img " src="images/微信公众号平台产品架构/u300.png"/>
+        <!-- Unnamed () -->
+        <div id="u301" class="text" style="visibility: visible;">
+          <p><span>常读用户分析（常读用户指标、常读用户数变化、性别、年龄、城市、终端分布）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u302" class="ax_default flow_shape">
+        <img id="u302_img" class="img " src="images/微信公众号平台产品架构/u302.png"/>
+        <!-- Unnamed () -->
+        <div id="u303" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>访问设备，数据与图表（终端分布）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u304" class="ax_default flow_shape">
+        <img id="u304_img" class="img " src="images/微信公众号平台产品架构/u304.png"/>
+        <!-- Unnamed () -->
+        <div id="u305" class="text" style="visibility: visible;">
+          <p><span><br></span></p><p><span>不常度用户（性别、年龄、城市、终端分布）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u306" class="ax_default flow_shape">
+        <img id="u306_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u307" class="text" style="visibility: visible;">
+          <p><span>下载表格、下载数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u308" class="ax_default flow_shape">
+        <img id="u308_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u309" class="text" style="visibility: visible;">
+          <p><span>新消息、新增人数、总用户数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u310" class="ax_default flow_shape">
+        <img id="u310_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u311" class="text" style="visibility: visible;">
+          <p><span>公告私信</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u312" class="ax_default flow_shape">
+        <img id="u312_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u313" class="text" style="visibility: visible;">
+          <p><span>新建群发</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u314" class="ax_default flow_shape">
+        <img id="u314_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u315" class="text" style="visibility: visible;">
+          <p><span>最近编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u316" class="ax_default flow_shape">
+        <img id="u316_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u317" class="text" style="visibility: visible;">
+          <p><span>黑名单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u318" class="ax_default flow_shape">
+        <img id="u318_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u319" class="text" style="visibility: visible;">
+          <p><span>已关注用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u320" class="ax_default flow_shape">
+        <img id="u320_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u321" class="text" style="visibility: visible;">
+          <p><span>加入黑名单、星标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u322" class="ax_default flow_shape">
+        <img id="u322_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u323" class="text" style="visibility: visible;">
+          <p><span>新建/打标签</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u324" class="ax_default flow_shape">
+        <img id="u324_img" class="img " src="images/新媒体研究中心产品架构/u68.png"/>
+        <!-- Unnamed () -->
+        <div id="u325" class="text" style="visibility: visible;">
+          <p><span>搜索用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u326" class="ax_default _连接线">
+        <img id="u326_seg0" class="img " src="images/微信公众号平台产品架构/u326_seg0.png" alt="u326_seg0"/>
+        <img id="u326_seg1" class="img " src="images/微信公众号平台产品架构/u326_seg1.png" alt="u326_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u327" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u328" class="ax_default _连接线">
+        <img id="u328_seg0" class="img " src="images/微信公众号平台产品架构/u328_seg0.png" alt="u328_seg0"/>
+        <img id="u328_seg1" class="img " src="images/微信公众号平台产品架构/u328_seg1.png" alt="u328_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u329" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u330" class="ax_default _连接线">
+        <img id="u330_seg0" class="img " src="images/微信公众号平台产品架构/u330_seg0.png" alt="u330_seg0"/>
+        <img id="u330_seg1" class="img " src="images/新媒体研究中心产品架构/u182_seg1.png" alt="u330_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u331" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u332" class="ax_default _连接线">
+        <img id="u332_seg0" class="img " src="images/微信公众号平台产品架构/u332_seg0.png" alt="u332_seg0"/>
+        <img id="u332_seg1" class="img " src="images/微信公众号平台产品架构/u332_seg1.png" alt="u332_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u333" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u334" class="ax_default _连接线">
+        <img id="u334_seg0" class="img " src="images/微信公众号平台产品架构/u332_seg0.png" alt="u334_seg0"/>
+        <img id="u334_seg1" class="img " src="images/微信公众号平台产品架构/u334_seg1.png" alt="u334_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u335" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u336" class="ax_default _连接线">
+        <img id="u336_seg0" class="img " src="images/微信公众号平台产品架构/u336_seg0.png" alt="u336_seg0"/>
+        <img id="u336_seg1" class="img " src="images/微信公众号平台产品架构/u336_seg1.png" alt="u336_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u337" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u338" class="ax_default _连接线">
+        <img id="u338_seg0" class="img " src="images/微信公众号平台产品架构/u338_seg0.png" alt="u338_seg0"/>
+        <img id="u338_seg1" class="img " src="images/微信公众号平台产品架构/u338_seg1.png" alt="u338_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u339" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u340" class="ax_default _连接线">
+        <img id="u340_seg0" class="img " src="images/微信公众号平台产品架构/u340_seg0.png" alt="u340_seg0"/>
+        <img id="u340_seg1" class="img " src="images/微信公众号平台产品架构/u340_seg1.png" alt="u340_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u341" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u342" class="ax_default _连接线">
+        <img id="u342_seg0" class="img " src="images/微信公众号平台产品架构/u342_seg0.png" alt="u342_seg0"/>
+        <img id="u342_seg1" class="img " src="images/新媒体研究中心产品架构/u182_seg1.png" alt="u342_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u343" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u344" class="ax_default _连接线">
+        <img id="u344_seg0" class="img " src="images/微信公众号平台产品架构/u344_seg0.png" alt="u344_seg0"/>
+        <!-- Unnamed () -->
+        <div id="u345" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u346" class="ax_default _连接线">
+        <img id="u346_seg0" class="img " src="images/微信公众号平台产品架构/u346_seg0.png" alt="u346_seg0"/>
+        <img id="u346_seg1" class="img " src="images/微信公众号平台产品架构/u346_seg1.png" alt="u346_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u347" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u348" class="ax_default _连接线">
+        <img id="u348_seg0" class="img " src="images/微信公众号平台产品架构/u348_seg0.png" alt="u348_seg0"/>
+        <img id="u348_seg1" class="img " src="images/微信公众号平台产品架构/u348_seg1.png" alt="u348_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u349" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
